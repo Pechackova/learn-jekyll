@@ -24,6 +24,7 @@ Oficiální FB stránka: <https://www.facebook.com/burningman/?fref=ts>
 Twitter: <https://twitter.com/burningman?lang=cs>  
 
 **5 zásadních ne-webových zdrojů**  
+Knihy   
 Burning Man Journal  
 Victor Habchy photography  
 otištěné články v časopisech, např. reflex  
