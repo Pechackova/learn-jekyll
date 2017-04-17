@@ -24,20 +24,21 @@ Oficiální FB stránka: <https://www.facebook.com/burningman/?fref=ts>
 Twitter: <https://twitter.com/burningman?lang=cs>  
 
 **5 zásadních ne-webových zdrojů**  
-Knihy   
+Knihy, např. This Is Burning Man   
 Burning Man Journal  
-Victor Habchy photography  
-otištěné články v časopisech, např. reflex  
+Victor Habchy photography 
+Marek Musil photography <!-- <http://burningman.marekmusil.com/> --> 
+články v časopisech, např. Reflex  
 dokumentární filmy: <http://topdocumentaryfilms.com/burning-man/> a <https://www.youtube.com/watch?v=H0NdVn2O1WY>  
-Marek Musil photography <!-- <http://burningman.marekmusil.com/> -->
 
-**Dostupná multimédia**    
-<http://www.scottlondon.com/photography/burningman/>  
-<https://www.theatlantic.com/photo/2016/09/photos-from-burning-man-2016/498371/>  
-<http://galleries.burningman.org/plugins/burningman/pages/intro.php?restypes=1>   official BM gallery  
-videa:  
-<https://www.youtube.com/watch?v=IP1fh9iO5yo>    
-<https://www.youtube.com/watch?v=IWR45bt0YjU>    
+**Dostupná multimédia**  
+Scott London <http://www.scottlondon.com/photography/burningman/>  
+The Atlantic <https://www.theatlantic.com/photo/2016/09/photos-from-burning-man-2016/498371/>  
+Burning Man galerie <http://galleries.burningman.org/plugins/burningman/pages/intro.php?restypes=1>    
+official BM gallery  
+videa:    
+<https://www.youtube.com/watch?v=IP1fh9iO5yo>     
+<https://www.youtube.com/watch?v=IWR45bt0YjU>     
   
 podobné festivaly:  
 <https://www.tomorrowland.com/global/> v Evropě      
