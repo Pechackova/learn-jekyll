@@ -24,7 +24,7 @@ Oficiální FB stránka: <https://www.facebook.com/burningman/?fref=ts>
 Twitter: <https://twitter.com/burningman?lang=cs>  
 
 **5 zásadních ne-webových zdrojů**  
-Knihy, např. This Is Burning Man    
+Knihy, např. This is Burning Man    
 Burning Man Journal   
 Victor Habchy photography   
 Marek Musil photography <!-- <http://burningman.marekmusil.com/> -->   
