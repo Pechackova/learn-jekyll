@@ -25,28 +25,12 @@ body {
 
  /* horní panel = navbar*/
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: #f1f1f1;
-    height: 100%; /* Full height */
-    position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+li {
+    float: left;
 }
 
-li a {
+a {
     display: block;
+    padding: 8px;
+    background-color: #dddddd;
 }
-/* Change the link color on hover */
-li a:hover {
-    background-color: #555;
-    color: white;
-}
-/* Active/Current Navigation Link */
-.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
