@@ -4,18 +4,6 @@
 	padding: 20px;
 }
 
-.header {
-	padding: 80px 0;
-	border-bottom: solid;
-	align-content: center;
-	font-size: 50%;
-}
-
-.title {
-	font-size: 200px;
-	color: #cc0000;
-}
-
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
@@ -25,68 +13,36 @@ body {
   background-image: url("http://yacchan.link/wp-content/uploads/2015/07/believe.jpg");
   background-position: center;
   background-position: top;
-  background-attachment: fixed;	  
+  background-attachment: fixed;
+	  
 }
+
+.header {
+	padding: 80px 0;
+	border-bottom: solid;
+}
+
 
  /* horní panel = navbar*/
-
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-body {
-    margin: 0;
+ 
+.content {
+	float: right;
+	width: 75%;
+	border-left: solid;
+	padding-left: 30px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
+nav {
+	float: left;
+	width: 15%;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
 }
 
 li a {
     display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
+    width: 60px;
 }
-
-li a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
-</style>
-</head>
-<body>
-
-<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#O projektu">O projektu</a></li>
-</ul>
-
-<div style="margin-left:25%;padding:1px 16px;height:1000px;">
-  <h2>Fixed Full-height Side Nav</h2>
-  <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
-  <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
-  <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
-  <p>Some text..</p>
-  <p>Some text..</p>
-  <p>Some text..</p>
-  <p>Some text..</p>
-  <p>Some text..</p>
-  <p>Some text..</p>
-  <p>Some text..</p>
-</div>
-
-</body>
-</html>
