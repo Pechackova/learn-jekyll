@@ -24,5 +24,24 @@ body {
 
 
  /* horní panel = navbar*/
- 
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+}
+
+li a {
+    display: block;
+}
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+/* Active/Current Navigation Link */
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
