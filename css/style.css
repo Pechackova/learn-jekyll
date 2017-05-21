@@ -29,7 +29,7 @@ body {
 	float: right;
 	width: 75%;
 	border-left: solid;
-	padding-left: 30px;
+	padding-left: 50px;
 }
 
 nav {
@@ -37,13 +37,23 @@ nav {
 	width: 15%;
 }
 
-nav ul {
-	list-style-type: none;
-	padding: 0;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px 16px;
+    width: 200px;
+    background: none;
 }
 
 li a {
-    display: table;
-    width: 60px;
-	background-color: #ffbf00;
+    display: block;
+    color: #300;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #ffd24d;
+    color: white;
 }
