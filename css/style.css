@@ -43,6 +43,7 @@ nav ul {
 }
 
 li a {
-    display: block;
+    display: table;
     width: 60px;
+	background-color: #ffbf00;
 }
