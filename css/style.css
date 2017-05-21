@@ -31,12 +31,12 @@ body {
  /* horní panel = navbar*/
 
 /* Add a black background color to the top navigation */
-/*.topnav {
+.topnav {
     background-color: #333;
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar
+/* Style the links inside the navigation bar */
 nav {
 	float: left;
 	width: 15%;
@@ -46,67 +46,78 @@ nav ul {
 	list-style-type: none;
 padding: 0;
 }
-*/
 
+body {
+  margin: 0;
+  font: 125% / 1.4 'Helvetica', 'Arial', sans-serif;
+  background-color: #eec8f4;
+}
 
+a {
+  color: #fcfcfc;
+  text-decoration: none;
+}
 
-<nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      {% if site.title-img %}
-        <a class="navbar-brand navbar-brand-logo" href="{{ site.url }}"><img src="{{ site.title-img }}"/></a>
-      {% else %}
-        <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
-      {% endif %}
-    </div>
+a[href^="http"]::after {
+  content: ' ↗';
+  border-bottom: 0;
+  display: inline-block;
+  font-weight: bold;
+  transform: scale(0.6);
+}
 
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
-      {% for link in site.navbar-links %}
-        {% if link[1].first %}
-          <li class="navlinks-container">
-            <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
-            <div class="navlinks-children">
-              {% for childlink in link[1] %}
-                {% for linkparts in childlink %}
-                  {% include navbarlink.html link=linkparts %}
-                {% endfor %}
-              {% endfor %}
-            </div>
-          </li>
-        {% else %}
-          <li>
-            {% include navbarlink.html link=link %}
-          </li>
-        {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
+a:not([class]):hover,
+a:not([class]):active {
+  border-bottom: 1px solid;
+}
 
-	{% if page.image and (layout.show-avatar or page.show-avatar) %}
-	<div class="avatar-container">
-	  <div class="avatar-img-border">
-	    <a href="{{ site.url }} ">
-	      <img class="avatar-img" src="{{ page.image | prepend: site.baseurl | replace: '//', '/' }}" />
-		</a>
-	  </div>
-	</div>
-	{% elsif site.avatar and (layout.show-avatar or page.show-avatar) %}
-	<div class="avatar-container">
-	  <div class="avatar-img-border">
-	    <a href="{{ site.url }} ">
-	      <img class="avatar-img" src="{{ site.avatar | prepend: site.baseurl | replace: '//', '/' }}" />
-		</a>
-	  </div>
-	</div>
-	{% endif %}
+abbr[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+  text-decoration: none;
+}
 
-  </div>
-</nav>
+section:not(:last-of-type) {
+  margin-bottom: 2em;
+}
 
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+h1, .as-h1 {
+  font-size: 200px;
+  margin: 0 0 20px;
+}
+
+pre {
+  background-color: #27d141;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  padding: 200px;
+  overflow: auto;
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 20px;
+    width: 250px;
+    background-color: #f29898;
+}
+
+li a {
+    display: block;
+    color: #fcfcfc;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #ffbf00;
+}
