@@ -5,8 +5,6 @@ title: Home
 
 # A city in the desert. A culture of possibility. A network of dreamers and doers.
 
-Tato stránka se zabývá skvělým festivalem Burning Man.
-
 ### Město v poušti. Kultura možností. Síť snílků a mužů činu.
 
 
