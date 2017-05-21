@@ -9,7 +9,7 @@
 	padding: 80px 0;
 	border-bottom: solid;
 	align-content: center;
-	font-size: 50%;
+	font-size: 100%;
 
 }
 .title {
@@ -36,7 +36,7 @@ nav ul {
 html { font-size: 80%; }
 
 * {
-  box-sizing: 500px;
+  box-sizing: 50px;
 }
 
 html {
@@ -45,7 +45,7 @@ html {
 
 body {
   margin: 0;
-  font: 125% / 1.4 'Helvetica', 'Arial', sans-serif;
+  font: 100% / 1.4 'Helvetica', 'Arial', sans-serif;
 	color: #00004d;
 	
   background-image: url("http://yacchan.link/wp-content/uploads/2015/07/believe.jpg");
