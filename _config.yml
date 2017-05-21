@@ -29,8 +29,44 @@ avatar: "/css/avatar-icon.png"
 # then specify the following parameter
 title-img: "/css/avatar-icon.png"
 
+# If you want to have an image logo in the top-left corner instead of the title text,
+# then specify the following parameter
+# title-img: /path/to/image
+
 baseurl: "/learn-jekyll" # the subpath of your site, e.g. /blog
 url: "https://jan-martinek.github.io/learn-jekyll" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+# --- Footer options --- #
+
+# Change all these values or delete the ones you don't want.
+# Important: you must keep the "name" parameter, everything else you can remove
+author:
+  name: Some Person
+  email: "youremail@domain.com"
+  facebook: yourname  # eg. daattali
+  github: yourname    # eg. daattali
+  twitter: yourname   # eg. daattali
+  youtube: yourlink   # eg. user/daattali or channel/daattali
+  
+# Select which links to show in the footer
+footer-links-active:
+  facebook: true
+  email: true
+  twitter: true
+  github: true
+  youtube: false
+
+# Select which share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  google: false
+
+# How to display the link to the website in the footer
+# Remove this if you don't want a link in the footer
+url-pretty: "MyWebsite.com" # eg. "deanattali.com/beautiful-jekyll"
+
 
 # Build settings
 markdown: kramdown
