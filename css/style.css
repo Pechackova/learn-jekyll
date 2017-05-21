@@ -22,6 +22,10 @@ body {
 	border-bottom: solid;
 }
 
+.title {
+	font-size: 80px;
+	color: #cc0000;
+}
 
  /* horní panel = navbar*/
 
