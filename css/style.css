@@ -1,76 +1,119 @@
+
 .wrapper {
 	margin: 50px auto;
-	max-width: 800px;
+	max-width: 1200px;
 	padding: 20px;
 }
 
 .header {
-	padding: 80px 0;
+	padding: 100px 0;
 	border-bottom: solid;
 	align-content: center;
 	font-size: 50%;
+
+}
+.title {
+	font-size: 100px;
 }
 
-.title {
-	font-size: 80px;
-	color: #cc0000;
+.content {
+	float: right;
+	width: 75%;
+	border-left: solid;
+	padding-left: 30px;
+}
+
+nav {
+	float: left;
+	width: 15%;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+html { font-size: 120%; }
+
+* {
+  box-sizing: 500px;
+}
+
+html {
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 18px;
-  color: #00004d;
-  position: relative;
-
-  background-image: url("http://yacchan.link/wp-content/uploads/2015/07/believe.jpg");
-  background-position: center;
-  background-position: top;
-  background-attachment: fixed;	  
+  margin: 0;
+  font: 125% / 1.4 'Helvetica', 'Arial', sans-serif;
+  background-color: #eec8f4;
 }
 
- /* horní panel = navbar*/
-
-<nav>
-  <div class="nav-mobile">
-    <a id="nav-toggle" href="#!"><span></span></a>
-  </div>
-  <ul class="nav-list">
-    <li><a href="#!">Home</a></li>
-    <li><a href="#!">O projektu</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-
-<section class="navigation">
-  <div class="nav-container">
-    <div class="brand">
-      <a href="#!">Logo</a>
-    </div>
-    <!-- <nav></nav> -->
-  </div>
-</section>
-
-.navigation {
-  height: $nav-height;
-  background: $nav-background;
+a {
+  color: #fcfcfc;
+  text-decoration: none;
 }
 
-.nav-container {
-  max-width: $content-width;
-  margin: 0 auto;
+a[href^="http"]::after {
+  content: ' ↗';
+  border-bottom: 0;
+  display: inline-block;
+  font-weight: bold;
+  transform: scale(0.6);
 }
 
-.brand {
-  position: absolute;
-  padding-left: 20px;
-  float: left;
-  line-height: $nav-height;
-  text-transform: uppercase;
-  font-size: 1.4em;
-  a,
-  a:visited {
-    color: $nav-font-color;
+a:not([class]):hover,
+a:not([class]):active {
+  border-bottom: 1px solid;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+  text-decoration: none;
+}
+
+section:not(:last-of-type) {
+  margin-bottom: 2em;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+h1, .as-h1 {
+  font-size: 200px;
+  margin: 0 0 20px;
+}
+
+pre {
+  background-color: #27d141;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  padding: 200px;
+  overflow: auto;
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 20px;
+    width: 250px;
+    background-color: #f29898;
+}
+
+li a {
+    display: block;
+    color: #fcfcfc;
+    padding: 8px 16px;
     text-decoration: none;
-  }
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
 }
