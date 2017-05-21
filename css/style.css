@@ -34,14 +34,14 @@ body {
 
 nav {
 	float: left;
-	width: 15%;
+	width: 25%;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 8px 16px;
-    width: 200px;
+    width: 100px;
     background: none;
 }
 
