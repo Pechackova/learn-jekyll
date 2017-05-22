@@ -9,7 +9,8 @@ Black Rock City je společnost, která organizuje každoroční událost Burning
 **Black Rock City Guide**
 <iframe width='600' height='434' src="https://burningman.org/event/black-rock-city-guide/infrastructure/" frameborder='0' allowfullscreen scrolling='yes'></iframe>   
 
-<iframe width="420" height="315" src="https://www.youtube.com/watch?v=yB2QX4nzKXk"></iframe>   
+**Video**
+<iframe width="854" height="480" src="https://www.youtube.com/embed/heQDzVNZFTs" frameborder="0" allowfullscreen></iframe>
 
 Odkazy:   
 Black Rock City Guide <https://burningman.org/event/black-rock-city-guide/>  
