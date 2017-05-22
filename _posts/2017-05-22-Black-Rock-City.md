@@ -4,15 +4,10 @@ Black Rock City je společnost, která organizuje každoroční událost Burning
 
 
 **Pohled na město z výšky**
-<img src="black-rock-city.jpg" alt="Black Rock City" style="width:200px;height:200px;">  
 
-<a href="black-rock-city.jpg">
-  <img src="black-rock-city.jpg" alt="Black Rock City">
-</a>
+![Pohled na město z výšky](/img/black-rock-city.jpg "Pohled na město z výšky")
 
-<img src="black-rock-city.jpg" alt="Paris">
-
-
+nebo
 
 ![Black Rock City](/img/black-rock-city.jpg)
 Format: ![Alt Text](url)
