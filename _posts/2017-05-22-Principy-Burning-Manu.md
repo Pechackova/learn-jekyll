@@ -36,7 +36,11 @@ Naše komunita se zavazuje k radikální etice. Věříme, že k transformační
 Bezprostřední zkušenost je, v mnoha ohledech, nejdůležítějším prubířským kamenem našich hodnot. Snažíme se překonávat překážky, které stojí mezi námi a uznáním našich vniřních ja, reality těch okolo nás, zapojení se do společnosti a kontakt s přírodním světem přesahujícím lidské síly. Je to nenahraditelná a nesdělitelná zkušenost.
   
 
+<iframe width='600' height='434' src='http://www.cestujzadara.cz/cestopisy/amerika/cestopisy-z-usa/festival-burning-man-v-nevade/burning-man-ccn-jpg.jpg='no'></iframe>
 
+Odkazy:
+ <a href="https://burningman.org/culture/philosophical-center/10-principles/"</a>
+<a href="https://burningman.org/culture/philosophical-center/"</a>
  
 
 
