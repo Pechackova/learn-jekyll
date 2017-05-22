@@ -7,9 +7,9 @@ Black Rock City je společnost, která organizuje každoroční událost Burning
 <blockquote class="embedly-card"><h4><a href="http://www.loupiote.com/photos_l/237497928-burning-man-aerial-black-rock-city.jpg">null</a></h4><p>null</p></blockquote>
 
 
-<img src="black-rock-city.jpg" alt="black-rock-city.jpg" style="width:300px;height:300px;">
+<img src="black-rock-city.jpg" alt="Black Rock City" style="width:300px;height:300px;">
 
 
 Odkazy:   
-Black Rock City Guide <https://burningman.org/event/black-rock-city-guide/>
-Fotky na TripAdvisoru <https://www.tripadvisor.co.za/LocationPhotos-g734698-w2-Black_Rock_City_Nevada.html>
+Black Rock City Guide <https://burningman.org/event/black-rock-city-guide/>  
+Fotky na TripAdvisoru <https://www.tripadvisor.co.za/LocationPhotos-g734698-w2-Black_Rock_City_Nevada.html>  
