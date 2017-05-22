@@ -7,12 +7,6 @@ Black Rock City je společnost, která organizuje každoroční událost Burning
 
 ![Pohled na město z výšky](/img/black-rock-city.jpg "Pohled na město z výšky")
 
-nebo
-
-![Black Rock City](/img/black-rock-city.jpg)
-Format: ![Alt Text](url)
-
-
 
 **Black Rock City Guide**
 <iframe width='600' height='434' src="https://burningman.org/event/black-rock-city-guide/infrastructure/" frameborder='0' allowfullscreen scrolling='yes'></iframe>   
