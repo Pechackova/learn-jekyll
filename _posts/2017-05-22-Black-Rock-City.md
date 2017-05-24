@@ -5,7 +5,7 @@ Black Rock City je společnost, která organizuje každoroční událost Burning
 
 **Pohled na město z výšky**
 
-![Pohled na město z výšky](/img/black-rock-city.jpg "Pohled na město z výšky")
+![Pohled na město z výšky](\learn-jekyll\_images\black-rock-city.jpg)
 
 
 **Black Rock City Guide**
